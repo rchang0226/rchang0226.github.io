@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="mainGradient" cx="30%" cy="20%" r="80%">
+      <stop offset="0%" style="stop-color:#7dd3fc;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#0891b2;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#155e75;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#374151;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="highlight" cx="25%" cy="15%" r="40%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="shadow" cx="75%" cy="85%" r="60%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0" />
+      <stop offset="70%" style="stop-color:#000000;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main rounded square -->
+  <rect x="0" y="0" width="512" height="512" rx="120" ry="120" fill="url(#mainGradient)" />
+  
+  <!-- Highlight overlay -->
+  <rect x="0" y="0" width="512" height="512" rx="120" ry="120" fill="url(#highlight)" />
+  
+  <!-- Shadow overlay -->
+  <rect x="0" y="0" width="512" height="512" rx="120" ry="120" fill="url(#shadow)" />
+</svg>
